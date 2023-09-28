@@ -21,7 +21,7 @@ jobs:
         cache: gradle
 
     - name: Change into gradle project directory
-      run: cd DamnVulnerableBank/
+      run: cd DamnVulnerableBank
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
